@@ -178,16 +178,18 @@ body{
 }
 .ul-item ul{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
-    width: 90%;
+    width: 100%;
     word-wrap: break-word;
     text-align: justify;
+    overflow: scroll;
     border-bottom: 1px solid #cfcdcd;
 }
 .ul-item ul span {
 	padding: 7px 0px;
-	width: 101px;
+	width: 28px;
 	height: 40px;
 	margin-left: 31px;
 	text-align: center;
@@ -195,7 +197,7 @@ body{
 	display: block;
 	color: white;
 	border-radius: 4px;
-    cursor: pointer;
+	cursor: pointer;
 }
 .span-error {
 	padding: 5px 25px;
